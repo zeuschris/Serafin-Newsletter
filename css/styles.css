@@ -1,0 +1,151 @@
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f6fa;
+  color: #111;
+}
+
+.preheader {
+  display: none !important;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 680px;
+  margin: 28px auto;
+  padding: 16px;
+  .lead {
+        margin: 0;
+        color: #475569;
+        font-size: 15px;
+    }
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(95, 108, 136, 0.411);
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #000000;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.main-title {
+  padding: 24px;
+  text-align: center;
+  background: #e8ebf5;
+  h1 {
+        margin: 0 0 8px;
+        font-size: 26px;
+        color: #28395E;
+    }
+}
+
+.columns {
+  display: flex;
+  gap: 16px;
+  padding: 16px 24px;
+  .col {
+    flex: 1;
+    background: #fbfbff;
+    border-radius: 6px;
+    padding: 12px;
+    text-align: center;
+        h3 {
+            margin: 10px 0 6px;
+            font-size: 16px;
+            color: #28395E;
+        }
+        p {
+            margin: 0 0 12px;
+            color: #475569;
+            font-size: 14px;
+            text-align: center;
+        }
+        .thumb {
+            width: 100%;
+            border-radius: 4px;
+            height: auto;
+            display: block;
+        }
+    }
+}
+
+.full {
+  padding: 0 24px 24px;
+  text-align: center;
+    h2{
+        margin: 12px 0;
+        font-size: 18px;
+        color: #28395E;
+    }
+    p{
+        color: #475569;
+    }
+}
+
+.btn.ghost {
+  background: transparent;
+  color: #28395E;
+  border: 1px solid #28395E;
+  &:hover{
+        background: #28395E;
+        color: #fff;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background: #28395E;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  &:hover{
+    background: #3d5289;
+  }
+}
+
+.footer {
+  padding: 18px;
+  text-align: center;
+  font-size: 12px;
+  color: #6b7280;
+    a {
+        color: #28395E;
+        text-decoration: none;
+    }
+}
+
+
+@media (max-width:600px) {
+  .columns {
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .wrapper {
+    margin: 16px;
+  }
+}
