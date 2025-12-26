@@ -1,7 +1,7 @@
 # 💳 Créditos — Newsletter Serafín Creaciones
 
 ## 🖼️ Vista Previa del Proyecto
-![Newsletter Serafín Creaciones](./screenshot/capture.jpg)
+![Newsletter Serafín Creaciones](./screenshot/capture.png)
 
 ---
 
