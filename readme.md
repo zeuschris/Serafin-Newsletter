@@ -1,5 +1,10 @@
 # 💳 Créditos — Newsletter Serafín Creaciones
 
+## 🖼️ Vista Previa del Proyecto
+![Newsletter Serafín Creaciones](./screenshot/capture.jpg)
+
+---
+
 Este documento detalla las herramientas y recursos utilizados para la creación del **newsletter promocional de Serafín Creaciones**.
 
 ---
@@ -7,7 +12,7 @@ Este documento detalla las herramientas y recursos utilizados para la creación 
 ## 🧑‍🎨 Autor
 
 **Nombre:** Christopher Montes  
-**Rol:** Desarrollador Full Stack  
+**Rol:** Desarrollador Frontend
 **Año:** 2025  
 
 ---
@@ -44,7 +49,7 @@ Este documento detalla las herramientas y recursos utilizados para la creación 
 ## 💬 Contacto
 
 📧 **Correo:** [zeuschris123@gmail.com](mailto:zeuschris123@gmail.com)  
-🌐 **Sitio web:** [https://chris-porfolio.netlify.app/](https://chris-porfolio.netlify.app/)
+🌐 **Sitio web:** [Chris-Portfolio](https://portfolio-dev-chris.vercel.app)
 
 ---
 
